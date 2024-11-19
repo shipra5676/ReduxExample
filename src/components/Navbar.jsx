@@ -30,7 +30,7 @@ const Navbar = () => {
         </nav>
 
         <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" />
           <Route path="/Product" element={<Product />} />
           <Route path="/Cart" element={<Cart />} />
         </Routes>
