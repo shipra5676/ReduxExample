@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 //import './index.css';
 import { Provider } from 'react-redux';
 import store from './store/store';
-import App from './containers/App';
+import App from './containers/App'
+import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
 import './index.css'; // This imports your Tailwind CSS file
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="max-w-xs rounded-lg border border-gray-200 shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
       {<img
-        src="./productImg.png"
+        src={product.thumbnail}
         alt={product.name}
         className="w-full h-48 object-cover"
       />
