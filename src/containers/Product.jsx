@@ -50,7 +50,7 @@ const Product = () => {
         <h1 className="text-3xl font-semibold text-gray-800 mb-4 p-2">Search Products</h1>
         <input
           type="text"
-          className="p-2 w-full border rounded-md mb-4"
+          className="p-2 w-full border rounded-md mb-4 text-rose-950"
           placeholder="Search Products..."
           value={searchTerm}
           onChange={handleChange}
